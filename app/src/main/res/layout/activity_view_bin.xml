@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context=".ViewBinActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bin"
+        android:textSize="24sp"
+        android:layout_marginBottom="10dp"
+        android:fontFamily="sans-serif"
+        android:textColor="@android:color/black"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/black"
+        android:padding="8dp">
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="100dp"
+            android:layout_height="200dp"
+            android:progressDrawable="@drawable/progressbar_theme"
+            android:progress="0" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/id_tv_progress_percent"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0% \nFull"
+        android:textStyle="bold"
+        android:textSize="24sp"
+        android:layout_marginBottom="10dp"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/id_tv_sensor_id"
+        android:text="Sensor Id: "
+        android:textSize="12sp"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/id_tv_time"
+        android:layout_marginTop="10dp"
+        android:text="Time: "
+        android:textSize="12sp"
+        android:textColor="@android:color/black" />
+</LinearLayout>

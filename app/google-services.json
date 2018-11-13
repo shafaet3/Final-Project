@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "1093316177996",
+    "firebase_url": "https://gmsusingpi.firebaseio.com",
+    "project_id": "gmsusingpi",
+    "storage_bucket": "gmsusingpi.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1093316177996:android:dbd7dcb5233cfc34",
+        "android_client_info": {
+          "package_name": "com.example.project.gms"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1093316177996-ired5mbjj9400ocih2hiedk44ku7qols.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyADYHhhwGbohf9hxSn4xJhvStNIueAWB7U"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
